@@ -1,0 +1,51 @@
+{% extends "home.html" %}
+{% block upload %}
+
+<div id="begin-upload-tag">
+
+    <h1>
+        DATA CLEANER
+    </h1>
+
+    <h3>
+        just select your file and simple
+    </h3>
+
+    <div class="bg-success p-2 text-dark bg-opacity-10">
+
+        <form action="/" method="post" enctype="multipart/form-data">
+
+            <div class="mb-3">
+                <label for="formFileSm" class="form-label">
+                    <h5>
+                        select the file to clean
+                    </h5>
+                </label>
+                <input class="form-control form-control-sm" name="uploadExcel" id="formFileSm" type="file">
+            </div>
+
+            <div class="form-floating">
+                <textarea class="form-control" name="uploadname" placeholder="Leave a comment here"
+                    id="floatingTextarea">
+                </textarea>
+                <label for="floatingTextarea">
+                    write your new file name want to save
+                </label>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">
+                    Submit
+                </button>
+            </div>
+
+            <br>
+
+        </form>
+
+    </div>
+</div>
+{% endblock %}

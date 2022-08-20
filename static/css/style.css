@@ -1,0 +1,28 @@
+body{
+    background-color:aquamarine;
+}
+
+#end_success_tag{
+    background-color:aliceblue;
+    color:black;
+    display: flexbox;
+    
+    flex-wrap: wrap;
+    padding:34px;
+    border: 4px solid rgba(57, 63, 64, 0.9);
+    -ms-flex-item-align: end;
+    border-radius:25px;
+}
+
+#body-tag{
+background-color: aquamarine;
+}
+
+#begin-upload-tag{
+    background-color:aliceblue;
+    color:black;
+    padding: 50px;
+    border: 4px solid rgba(57, 63, 64, 0.9);;
+    border-radius:25px;
+
+}
